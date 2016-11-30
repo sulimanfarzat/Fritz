@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+
+<html>
+
+
+
+<head>
+
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" >
+	<meta HTTP-EQUIV="content-type" CONTENT="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<title>Kontinuierlicher Verbesserungsprozess (KVP)</title>
+
+	<link rel="stylesheet" href="P:\Dokumente\Suliman Ordner\Visual Basic\html\KVP Projekt\demo.css">
+	<link rel="stylesheet" href="P:\Dokumente\Suliman Ordner\Visual Basic\html\KVP Projekt\form-basic.css"> 
+	
+
+</head>
+
+
+
+<body>
+
+
+	<header>
+
+		<!-- <img src="\\FGFILE03\Home\farzatsu\AnwendungsdatenXEN\Dokumente\Eigene Bilder\Logo Fritz Logistik.png" alt="FRITZ" style="width:250px;height:75px;"> -->
+		<h1>FRITZ Gruppe</h1>
+		<a href="javascript:window.print()">Print</a>
+        <a href="javascript:window.show">PDF</a>
+		<a href="#">E-Mail</a>
+		
+		
+    </header>
+
+
+
+    <div class="main-content">
+
+
+       	 <!-- You only need this form and the form-basic.css -->
+
+
+        <form class="form-basic" method="post" action="#">
+
+			<div class="form-title-row main-title">
+
+	        	<h1>Kontinuierlicher Verbesserungsprozess (KVP)</h1>
+
+				<h1>der kompletten Fritz Gruppe</h1>
+
+    		</div>
+			
+				<div class="sub-title"></div>
+				
+				<table>
+					<tr class="form-row">
+						<td>
+							<span> KVP VORSCHLAG:</span>
+						</td>
+						<td>
+							<input type="text" name="name";">	
+						</td>
+						<td class="splitting-cell">
+						</td>
+						<td>
+							<span> Nummer</span>
+						</td>
+						<td>
+							<input type="text" name="name"">	
+						</td>
+						
+					</tr>
+				</table>
+				
+				<br><br>
+
+				
+				<div class="sub-title">KVP Team</div>
+				
+				<table>
+							
+					<tr class="form-row">
+
+						<td>
+							<span>Team mitglieder</span>
+						</td>
+
+						<td>
+							<input type="text" name="name" style="width:100%;">
+						</td>
+
+						<td class="splitting-cell">
+						</td>
+
+						<td>
+							<span>Bereich</span>
+						</td>
+
+						<td>
+							<input type="text" name="name" style="width:100%;">
+						</td>
+
+					</tr>
+
+
+				
+					<tr class="form-row">
+
+						<td>
+							<span>Eingereicht von</span>
+						</td>
+
+						<td colspan="4">
+							<input type="text" name="name" style="width:100%;">
+						</td>
+			
+					</tr>
+
+
+				</table>
+
+
+				<br/><br/>
+
+			
+				<div class="sub-title">
+				Verantwortliche Führungskraft und Standort
+				</div>
+				<div><br></br></div>
+
+
+
+				<table>
+
+					<tr class="form-row">
+
+						<td>
+							<span>Jetztiger Zustand</span>
+						</td>
+
+						<td colspan="2">
+							<textarea name="textarea"></textarea>
+						</td>
+
+					</tr>
+
+
+					<tr class="form-row">
+						<td>
+							<span>Konkreter Verbesserungsvorschlag</span>
+						</td>	
+						<td colspan="2">
+							<textarea name="textarea"></textarea><br><br><br><br>	
+						</td>
+					</tr>
+				
+				</table>
+				
+				
+				
+				<table>
+						
+					<tr class="form-row">
+					
+						<td>
+							<input type="checkbox" name="vehicle1" value=""> Mitarbeiterzufriedenheit
+						</td>								  
+						<td>
+							<input type="checkbox" name="vehicle1" value=""> Materialeinsatz *)
+						</td>			
+						<td>
+							<input type="checkbox" name="vehicle1" value=""> Qualität der Arbeitsergebnisse
+						</td>							
+						
+					</tr>
+					
+										
+					<tr class="form-row">
+					
+						<td >
+							<input type="checkbox" name="vehicle1" value=""> Ablauf/Prozesse *)
+						</td>	
+						<td>
+							<input type="checkbox" name="vehicle1" value=""> Arbeitsaufwand *)
+						</td>
+						<td>
+							<input type="checkbox" name="vehicle1" value=""> Sicherheit, Ordnung und Sauberkeit sowie Gesundheit
+						</td>						
+						
+					</tr>
+					
+					<tr class="form-row">
+
+						<td>
+						 <br><br><br><br>
+						</td>
+						<td >
+							<br><br><br><br>									
+						</td>
+						<td >
+							<br><br><br><br>									
+						</td>													
+
+					</tr>
+				
+			
+					<tr class="form-row">
+					
+						<td colspan="2">
+							<span>*) Wie hoch ist das Verbesserungspotential p.a in EUR geschätzt</span>
+						</td>						
+						<td>
+							<input type="text" name="name"></input>
+						</td>
+						
+					</tr>
+
+				</table>	
+				<div style="border: 1px solid powderblue;"></div>
+												
+				<br><br><br>	
+									
+					
+
+				<div class="sub-title">
+				Entscheidung
+				</div>
+				<br>
+				
+				<table>
+					
+					<tr class="form-row">
+						<td>
+							<input type="radio" name="name" value="wird umgesetzt" checked> wird umgesetzt</input>
+						</td>
+						<td>
+							<input type="radio" name="name" value="wird umgesetzt" checked> wird zurückgestelt</input>
+						</td>
+						<td>
+							<input type="radio" name="name" value="wird umgesetzt" checked> wird abgelehnt</input>
+						</td>
+					</tr>
+				
+					<tr>
+						<td><br>
+						</td>
+						<td><br>
+						</td>
+						<td><br><br><br>
+						</td>
+					</tr>
+					<tr class="form-row">
+						<td colspan="3">
+							<span>Begründung bei Ablehnung oder zurückstellung bitte auf der Rückseite eintragen</span><br><br>
+						</td>
+					</tr>	
+				</table>
+				
+				
+				
+				
+				
+				<div class="form-row">			
+				<span>Meinung der verantwortlichen Führungskraft</span>
+				<textarea name="textarea" style="width:100%;"></textarea>
+				<br></br>
+				<span>Begründung bei Ablehnung</span>
+				<textarea name="textarea" style="width:100%;"></textarea>
+				<br></br>
+				<span>Begründung bei Zurückleitung</span>
+				<textarea name="textarea" style="width:100%;"></textarea>
+				</div>
+			    <br/><br/>
+				<div class="sub-title">
+				Kosten-Nutzen-Verhältnis des Vorschlahs:
+				</div>
+				
+				
+				<table>
+				
+					<tr class="form-row">
+						<td colspan="5">
+							<textarea name="textarea" style="width:100%;"></textarea>
+						</td>
+					</tr>
+					
+					<tr class="form-row">
+						<td>
+							<span>Punktezahl für die Prämie:</span>	<br><br><br><br>					
+						</td>
+						<td>
+							<input type="text" name="name"><br><br><br><br>
+						</td>
+						<td>
+						</td>
+						<td>
+						</td>
+						<td>
+						</td>
+					</tr>
+					
+					<tr class="form-row">
+						<td>
+							<span>Umsetzung durch:<span>
+						</td>
+						<td>
+							<input type="text" name="name">
+						</td>
+						<td class="splitting-cell">
+						</td>
+						<td>
+							<span>bis:</span>
+						</td>
+						<td>
+							<input type="date" name="datum">
+						</td>
+					</tr>
+					<tr class="form-row">
+						<td>
+							<span>Datum Entscheider:</span>
+						</td>
+						<td>
+							<input type="date" name="datum">
+						</td>
+						<td class="splitting-cell">
+						</td>
+						<td>
+							<span>Unterschrift Entscheider:</span>
+						</td>
+						<td>
+							<span>.....................................................</span>
+						</td>
+					</tr>
+					
+				</table>
+				<br><br><br>
+				
+				
+				
+				
+				
+				
+			<div class="form-title-row main-title">
+
+	        	<h1>PRÄMIERUNG</h1>
+
+    		</div>
+			
+				<div class="sub-title">Bitte ankreuzen</div>
+				
+				<table>
+				
+					<tr class="form-row">
+					
+						<td>
+							<span>Prämierung des Vorschlahs Nr. / Thema</span>
+						</td>						
+						<td>
+							<input type="text" name="name">
+						</td>
+						
+					</tr>
+					
+					<tr class="form-row">
+						<td>
+							<span>Team / Teammietglieder</span>
+						</td>
+						<td>
+							<input type="text" name="name">
+						</td>
+						
+					</tr>
+					
+				</table>
+				
+				
+				<br><br><br>
+				
+				
+				<table   style= "border: 4px solid black;">
+				
+					<tr class="form-row">
+						<td colspan="1">
+						 <span> Art des Verbesserungsvorschlags</span>				
+						</td>
+						
+						</td>
+						<td class="splitting-cell">
+						</td>
+						<td colspan="4">
+						 <span  style="text-align:center;"> Bewertung (maximal 5 Punkte, d.h. 50 €)</span>				
+						</td>
+					</tr>
+					
+					<tr class="form-row">
+						<td>
+							<span>Gewichtungsfaktor z. Punkterm.lg</span>
+						</td>
+						</td>
+						<td class="splitting-cell">
+						</td>
+						<td>
+								<span  style="text-align:center;">trifft voll zu 0,8</span>
+						</td>
+						<td>
+								<span  style="text-align:center;">trifft zu 0,5</span>
+						</td>
+						<td>
+								<span  style="text-align:center;">trifft etwas zu 0,2</span>
+						</td>
+						<td>
+								<span  style="text-align:center;">trifft nicht zu 0</span>
+						</td>
+					</tr>
+					
+					
+		
+					
+					
+					<tr class="form-row">
+						<td>
+							<span>1. Ablauf / Prozesse</span>
+						</td>
+						</td>
+						<td class="splitting-cell">
+						</td>
+						<td>
+								<input type="radio" name="name">
+						</td>
+						<td>
+								<input type="radio" name="name">
+						</td>
+						<td>
+								<input type="radio" name="name">
+						</td>
+						<td>
+								<input type="radio" name="name">
+						</td>
+					</tr>
+					
+					<tr class="form-row">
+						<td>
+							<span>2. Materialaufwand</span>
+						</td>
+						</td>
+						<td class="splitting-cell">
+						</td>
+						<td>
+								<input type="radio" name="name">
+						</td>
+						<td>
+								<input type="radio" name="name">
+						</td>
+						<td>
+								<input type="radio" name="name">
+						</td>
+						<td>
+								<input type="radio" name="name">
+						</td>
+					</tr>
+					
+					<tr class="form-row">
+						<td>
+							<span>3. Arbeitsaufwand</span>
+						</td>
+						</td>
+						<td class="splitting-cell">
+						</td>
+						<td>
+								<input type="radio" name="name">
+						</td>
+						<td>
+								<input type="radio" name="name">
+						</td>
+						<td>
+								<input type="radio" name="name">
+						</td>
+						<td>
+								<input type="radio" name="name">
+						</td>
+					</tr>
+					
+					<tr class="form-row">
+						<td>
+							<span>4. Qualität d. Arbeitsergebnisse</span>
+						</td>
+						</td>
+						<td class="splitting-cell">
+						</td>
+						<td>
+								<input type="radio" name="name">
+						</td>
+						<td>
+								<input type="radio" name="name">
+						</td>
+						<td>
+								<input type="radio" name="name">
+						</td>
+						<td>
+								<input type="radio" name="name">
+						</td>
+					</tr>
+					
+					<tr class="form-row">
+						<td>
+							<span>5. Sicherheit, Ordnung, Sauberkeit</span>
+						</td>
+						</td>
+						<td class="splitting-cell">
+						</td>
+						<td>
+								<input type="radio" name="name">
+						</td>
+						<td>
+								<input type="radio" name="name">
+						</td>
+						<td>
+								<input type="radio" name="name">
+						</td>
+						<td>
+								<input type="radio" name="name">
+						</td>
+					</tr>
+					
+					<tr class="form-row">
+						<td>
+							<span>6. Mietarbeiterzufriedenheit</span>
+						</td>
+						</td>
+						<td class="splitting-cell">
+						</td>
+						<td>
+								<input type="radio" name="name">
+						</td>
+						<td>
+								<input type="radio" name="name">
+						</td>
+						<td>
+								<input type="radio" name="name">
+						</td>
+						<td>
+								<input type="radio" name="name">
+						</td>
+					</tr>
+					
+					<tr class="form-row">
+						<td>
+							<span>Summe:</span>
+						</td>
+						</td>
+						<td class="splitting-cell">
+						</td>
+						<td>
+							<span>=</span>	
+						</td>
+						<td>
+								<span>=</span>
+						</td>
+						<td>
+								<span>=</span>
+						</td>
+						<td>
+							<span>=</span>	
+						</td>
+						
+					</tr>
+					
+					
+					
+					
+					
+				</table>	
+				
+				
+				
+					
+
+	
+           
+		</form>
+
+
+    </div>
+
+
+</body>
+
+
+</html>
+
